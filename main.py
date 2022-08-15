@@ -1,2 +1,2 @@
 drop_fields = ['clu_classification_code','clu_calculated_acreage','comments','data_source_site_identifier','state_code','county_code','creation_date','last_change_date','data_source','admin_state','admin_county','cropland_indicator_3CM','sap_crp','clu_status','cdist_fips','edit_reason','GlobalId','clu_alt_id','last_chg_user_nm','state_ansi_code','county_ansi_code']
-add_fields = [['case_id','LONG','case_id'],['status','TEXT','status'],]
+add_fields = [['case_id','LONG','case_id'],['status','TEXT','status'],['county','TEXT','county',254]['state','TEXT','state',254]['geom_stat','TEXT','geom_stat'],['plu_status','TEXT','plu_status',254],['case_name','TEXT','case_name',254]['plu_name','TEXT','plu_name',254]]
