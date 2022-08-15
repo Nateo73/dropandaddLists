@@ -1,0 +1,2 @@
+drop_fields = ['clu_classification_code','clu_calculated_acreage','comments','data_source_site_identifier','state_code','county_code','creation_date','last_change_date',]
+add_fields = [['case_id','LONG','case_id'],['status','TEXT','status']]
